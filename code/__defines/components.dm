@@ -15,3 +15,4 @@
 #define COMSIG_COMPONENT_REMOVING "component_removing"			//before a component is removed from a datum because of RemoveComponent: (datum/component)
 #define COMSIG_PARENT_QDELETED "parent_qdeleted"				//before a datum's Destroy() is called: ()
 #define COMSIG_UNARMEDATTACK "UnarmedAttack"
+#define COMSIG_PICKUP "pickup"                                  //When someone picks us up

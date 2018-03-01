@@ -31,6 +31,8 @@
 
 #define ishuman(A) istype(A, /mob/living/carbon/human)
 
+#define isdatum(A) istype(A, /datum)
+
 #define isitem(A) istype(A, /obj/item)
 
 #define islist(A) istype(A, /list)

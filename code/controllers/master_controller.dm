@@ -39,6 +39,7 @@ datum/controller/game_controller/proc/setup()
 
 	setup_objects()
 	setupgenetics()
+	setupSCPs()
 
 	transfer_controller = new
 

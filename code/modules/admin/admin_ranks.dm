@@ -77,7 +77,7 @@ var/list/admin_ranks = list()								//list of all ranks with associated rights
 			if(copytext(line,1,2) == "#")	continue
 
 			//Split the line at every "-"
-			var/list/List = splittext(line, "-")
+			var/list/List = splittext(line, " - ")  //fuck you, sincereley Time-Green
 			if(!List.len)					continue
 
 			//ckey is before the first "-"

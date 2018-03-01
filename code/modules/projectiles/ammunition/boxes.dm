@@ -184,6 +184,39 @@
 /obj/item/ammo_magazine/a10mm/empty
 	initial_ammo = 0
 
+/obj/item/ammo_magazine/ap10mm
+	name = "magazine (10mm armor piercing)"
+	icon_state = "10mm"
+	origin_tech = list(TECH_COMBAT = 2)
+	mag_type = MAGAZINE
+	caliber = "10mm"
+	matter = list(DEFAULT_WALL_MATERIAL = 1500)
+	ammo_type = /obj/item/ammo_casing/ap10mm
+	max_ammo = 20
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/ap10mm
+	name = "magazine (10mm hollowpoint)"
+	icon_state = "10mm"
+	origin_tech = list(TECH_COMBAT = 2)
+	mag_type = MAGAZINE
+	caliber = "10mm"
+	matter = list(DEFAULT_WALL_MATERIAL = 1500)
+	ammo_type = /obj/item/ammo_casing/h10mm
+	max_ammo = 20
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/sc10mm
+	name = "magazine (10mm silver crescent)"
+	icon_state = "10mm"
+	origin_tech = list(TECH_COMBAT = 2)
+	mag_type = MAGAZINE
+	caliber = "10mm"
+	matter = list(DEFAULT_WALL_MATERIAL = 1500)
+	ammo_type = /obj/item/ammo_casing/sc10mm
+	max_ammo = 20
+	multiple_sprites = 1
+
 /obj/item/ammo_magazine/a762
 	name = "magazine (7.62mm)"
 	icon_state = "5.56"

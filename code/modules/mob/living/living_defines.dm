@@ -49,3 +49,11 @@
 	var/list/obj/aura/auras = null //Basically a catch-all aura/force-field thing.
 
 	var/obj/screen/cells = null
+
+
+	var/doing_something = 0	//Like pulling teeth?
+
+
+	var/list/in_vision_cones = list()
+
+	var/footstep = 0
