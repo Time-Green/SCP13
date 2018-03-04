@@ -335,6 +335,7 @@
 		else		direction = WEST
 	if(direction != dir)
 		facedir(direction)
+	update_vision_cone()
 
 /obj/screen/click_catcher
 	icon = 'icons/mob/screen_gen.dmi'

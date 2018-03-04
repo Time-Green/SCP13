@@ -1,7 +1,8 @@
-/obj/item/device/scp113
+/obj/item/device/SCP_113
 	name = "jasper rock"
 	desc = "The red piece of quartz gleams with unnatural smoothness."
-	icon_state = "scp113"
+	icon_state = "113"
+	icon = 'icons/SCP/113.dmi'
 	force = 10.0
 	w_class = ITEM_SIZE_HUGE //temporary workaround until I can fix the nodrop code to include noplace in bags/tables
 	throwforce = 10.0
